@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Grønne Nationale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>De Grønne Nationale</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Forside</a></li>
+                <li><a href="#policies">Politik</a></li>
+                <li><a href="#about">Om os</a></li>
+                <li><a href="#news">Nyheder</a></li>
+                <li><a href="#join">Bliv Medlem / Donér</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Velkommen til De Grønne Nationale</h2>
+        <p>For en bæredygtig og stolt fremtid.</p>
+    </section>
+
+    <section id="policies">
+        <h2>Vores Politik</h2>
+        <ul>
+            <li>Klimahandling for en grøn fremtid</li>
+            <li>Fremme national suverænitet</li>
+            <li>Bæredygtig økonomisk udvikling</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Om os</h2>
+        <p>De Grønne Nationale er et politisk parti dedikeret til bæredygtighed og nationalt engagement. Vi arbejder for en bedre fremtid for Danmark, hvor vi beskytter både vores miljø og vores suverænitet.</p>
+    </section>
+
+    <section id="news">
+        <h2>Nyheder og Begivenheder</h2>
+        <p>Hold dig opdateret med vores seneste aktiviteter og kommende begivenheder.</p>
+        <ul>
+            <li>Generalforsamling - 15. oktober 2024</li>
+            <li>Grøn kampagneuge - 20. november 2024</li>
+        </ul>
+    </section>
+
+    <section id="join">
+        <h2>Bliv Medlem / Donér</h2>
+        <p>Vil du være en del af vores mission? Bliv medlem eller støt os med en donation!</p>
+        <button>Bliv Medlem</button>
+        <button>Donér</button>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt os</h2>
+        <form>
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Besked:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 De Grønne Nationale</p>
+    </footer>
+</body>
+</html>
